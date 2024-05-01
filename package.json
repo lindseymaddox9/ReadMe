@@ -1,16 +1,27 @@
 {
+<<<<<<< HEAD
   "name": "logo",
+=======
+  "name": "static-site",
+>>>>>>> d4a589095f9c45ddb10cb757c690c2379a3f13d5
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+<<<<<<< HEAD
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^8.2.4",
     "jest": "^29.7.0"
+=======
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+>>>>>>> d4a589095f9c45ddb10cb757c690c2379a3f13d5
   }
 }

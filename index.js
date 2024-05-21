@@ -21,10 +21,12 @@ const questions = [
     name: "Usage",
     message: "What can the project be used for?",
   },
-//   {
-//     name: "License",
-//     message: "What type of Liscense do you have?",
-//   },
+  {
+    name: "License",
+    type: "list",
+    message: "What type of Liscense do you have?",
+    choices: ["MIT", "Apache", "None"]
+  },
   {
     name: "contributing",
     message: "Who contributed to your project?",
@@ -55,7 +57,7 @@ function init() {
   inquirer.prompt(questions).then((responses) => {
     const readmeData = generateMarkdown(responses);
 
-    fs.writeFile("README2.md", readmeData, (err) => {
+    fs.writeFile("README.md", readmeData, (err) => {
       if (err) {
         console.log(err);
       } else {

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
@@ -70,5 +69,3 @@ function init() {
 
 // Function call to initialize app
 init();
-=======
->>>>>>> 7a437332362df27555ec6f12e059bffb270402f3
